@@ -29,7 +29,7 @@ echo "Updating and upgrading system packages..."
 apt update -y && apt upgrade -y
 
 echo "Installing essential utilities (zip, unzip, stress)..."
-apt install -y zip unzip stress stress-ng
+apt install -y zip unzip stress stress-ng git
 
 #-------------------------------------------------------------
 # 2. Install and Configure Node Exporter
